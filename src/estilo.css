@@ -1,0 +1,60 @@
+form{
+    background-color: rgb(3, 34, 34);
+    width: 50%;
+    height: 80%;
+    margin-left: 28%;
+    margin-top: 7%;
+}
+#ingresar{
+color: white;
+font-size: 30px;
+margin-left: 3%;
+}
+#usuario{
+    margin-top: 3%;
+    width: 40%;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 30%;
+    border-radius: 10%;
+}
+#correo{
+    
+    margin-top: 3%;
+    width: 40%;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 30%;
+    border-radius: 10%;
+}
+#fecha{
+    
+    margin-top: 12px;
+    width: 40%;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 30%;
+    border-radius: 10%;
+    color: white;
+}
+#date{
+    
+    margin-top: 3%;
+    width: 40%;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 30%;
+    border-radius: 10%;
+}
+#acceder{
+    
+    margin-top: 20px;
+    width: 40%;
+    text-align: center;
+    font-size: 50px;
+    margin-left: 30%;
+    border-radius: 40%;
+    color: white;
+    background-color: green;
+    border-style: solid;
+}
