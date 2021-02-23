@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    
+    <form action="caulculadora.php" method="POST">
+        <label id="valores">Ingrese los valores</label>
+
+        <input type="number" placeholder="Ingrese un Numero" name="numero" id="numero">
+        <input type="number" name="numero2" id="numero2" placeholder="Ingrese un Numero">
+        <label id="Sumar">Sumar</label>
+        <input type="radio" name="rad" id="suma" value="1">
+        <label id="restar">restar</label>
+        <input type="radio" name="rad" id="resta" value="2">
+        <label id="dividir">Division</label>
+        <input type="radio" name="rad" id="Division" value="3">
+        <label id="multiplicar">Multiplicacion</label>
+        <input type="radio" name="rad" id="Multiplicacion" value="4">
+<input type="submit" value="Ejecutar"  id="ejecutar">
+
+<script >
+    function validar(){
+       document.querySelectorAll('name=rad').forEach((x)=> x.checked= false return(x));
+    }
+</script>
+    </form>
+</body>
+</html>
