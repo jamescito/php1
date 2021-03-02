@@ -1,0 +1,37 @@
+form{
+    background-color: rgb(7, 43, 43);
+    font-size: 40px;
+    color: white;
+    width: 50%;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+#usuario{
+    margin-left: 5%;
+}
+
+#nombre{
+    margin-top: 5%;
+    margin-left: 29%;
+    font-size: 25px;
+    border-collapse: collapse;
+}
+
+#numero{
+    margin-top: 5%;
+    margin-left: 29%;
+    font-size: 25px;
+    border-collapse: collapse;
+}
+
+
+#ejecutar{
+    background-color: rgb(6, 73, 15);
+    color: white;
+    font-size: 30PX;
+    margin-left: 37%;
+    width: 30%;
+    margin-top: 5%;
+    border-radius: 13%;
+  border: none;
+}
