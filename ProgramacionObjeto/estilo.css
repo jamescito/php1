@@ -1,0 +1,49 @@
+form{
+    background-color: rgb(34, 26, 26);
+    width: 50%;
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+ margin-left: 30%;   
+}
+
+#nombre{
+font-size: 19px;
+margin-top: 5%;
+}
+#apellido{
+    font-size: 19px;
+    margin-top: 3%;
+    }
+    
+#edad{
+    font-size: 19px;
+    margin-top: 3%;
+}
+#sexo{
+    
+    font-size: 19px;
+    margin-top: 3%;
+}
+#Dirección{
+
+    font-size: 19px;
+    margin-top: 3%;
+}
+#acceder{
+    background-color: green;
+    margin-top: 4%;
+    width: 25%;
+    font-size: 30px;
+    border-radius: 10%;
+}
+#bd{
+
+    background-color: green;
+    margin-top: 4%;
+    width: 25%;
+    font-size: 30px;
+    border-radius: 10%;
+    margin-left: 30%;
+
+}
